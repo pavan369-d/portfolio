@@ -19,7 +19,7 @@ const About = () => {
       <div className="hr"></div>
 
       <div className="skills">
-        <h3>Skills</h3>
+       
         <ul>
           {skillsArray.map((skill, index) => (
             <li key={index}>{skill}</li>
